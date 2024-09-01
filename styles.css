@@ -1,0 +1,193 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #20556b;
+    background-color: #e0f7fa;
+    background-image: url('./imagens/florazul.jpg'); 
+    background-repeat: repeat; 
+    margin: 0;
+    padding: 0;
+
+    h1 {
+        margin-top: -100px; 
+        font-size: 5em; 
+        padding: 50px;
+        text-align: center;
+        color: #4e849b;
+        font-family: 'Nerko One', sans-serif;
+    }
+
+    h2 {
+        color: #20556b;
+        margin-top: -50px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -250px;
+    }
+
+    .centralizada {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .slider {
+        position: relative;
+        max-width: 400px;
+        max-height: 800px;
+        margin: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 100;
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+}
+
+p {
+    text-indent: 30px;
+}
+
+header {
+    color: #4e849b;
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px; 
+}
+
+nav {
+    background-color: #4e849b;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    color: #fff;
+    background-color: #4e849b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #4e849b;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.textoport {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(238, 57, 102, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4e849b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #4e849b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #3a6a76;
+}
